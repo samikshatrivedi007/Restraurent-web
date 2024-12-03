@@ -1,0 +1,77 @@
+/* General Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 70px;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-item {
+    position: relative;
+    padding-top: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.header-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-item:hover {
+    color: #007bff;
+}
+/* Dropdown Menu Styles */
+.dropdown {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    z-index: 1000;
+}
+
+.dropdown-section {
+    margin-right: 20px;
+}
+
+.dropdown-section h4 {
+    font-size: 14px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.dropdown-section a {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.dropdown-section a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}

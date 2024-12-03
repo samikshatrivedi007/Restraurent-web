@@ -1,0 +1,42 @@
+:root {
+  --section-spacing: 20px;
+}
+.trusted-section {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+  
+  .trusted-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: #333;
+  }
+  
+  .brands-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .brand-logo {
+    width: 100px;
+    height: auto;
+    filter: grayscale(100%); /* Optional for the greyed-out effect */
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .brand-logo:hover {
+    filter: grayscale(0%); /* Add hover effect */
+  }
+  

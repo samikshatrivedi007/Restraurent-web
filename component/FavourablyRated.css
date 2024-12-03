@@ -1,0 +1,41 @@
+.favourably-rated {
+    text-align: center;
+    margin-top: 50px;
+}
+.favourably-rated h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.rating img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 24px;
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.star {
+    margin: 0 2px;
+
+}
