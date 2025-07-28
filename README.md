@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🚀 [Click here to view live](https://your-deployed-link.vercel.app)  
+🚀 [Click here to view live](https://restraurent-web.vercel.app/)  
 
 
 ---
@@ -36,10 +36,6 @@
 
 ### 
 ![Testimonials](./eight.jpg)
-
-### 
-![Contact Footer](./nine.jpg)
-
 
 
 ---
